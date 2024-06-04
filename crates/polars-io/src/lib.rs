@@ -20,7 +20,7 @@ pub use cloud::glob as async_glob;
 
 pub mod mmap;
 mod options;
-#[cfg(feature = "parquet")]
+#[cfg(feature = "polars-parquet")]
 pub mod parquet;
 pub mod predicates;
 pub mod prelude;
